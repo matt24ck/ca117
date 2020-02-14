@@ -1,0 +1,15 @@
+syntax enable
+set number
+set ts=4
+set autoindent
+set expandtab
+set shiftwidth=4
+set showmatch
+let python_highlight_all = 1
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
+set laststatus=2
+set showtabline=2
+set noshowmode
+set t_Co=256
