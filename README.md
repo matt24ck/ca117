@@ -1,2 +1,2 @@
 # ca117
-CA117 projects
+Solutions to CA117 exercises 2020
